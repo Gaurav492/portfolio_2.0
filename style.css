@@ -472,19 +472,6 @@ label div:last-child
     
     .skills{
         height: 100%;
-        background-color: #ffffff;
-        background-image: radial-gradient(#0000002a 1px, #ffffff 1px);
-        background-size: 20px 20px;
-    
-        border-radius: var(--border-radius);
-        box-shadow: var(--box-shadow);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     
     .grid{
