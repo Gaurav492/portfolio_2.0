@@ -379,4 +379,7 @@ footer .year {
     height: auto;
     /* margin-bottom: 2rem; */
   }
+footer ul {
+  margin-top: 1rem;
+}
 }
