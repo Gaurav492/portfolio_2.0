@@ -346,6 +346,7 @@ footer .year {
   }
 
   .skills {
+    height: auto;
     margin-bottom: 8rem;
   }
 
