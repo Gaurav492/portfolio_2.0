@@ -28,7 +28,7 @@ body {
   background: #fff;
   padding: 1rem 2rem;
   margin-top: 0.5rem;
-  /* border-radius: .5rem; */
+  text-decoration: none;
   box-shadow: -0.3rem 0.3rem 0rem #93b5c6;
   transition: 0.1s ease;
 }
