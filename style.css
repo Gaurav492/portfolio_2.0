@@ -366,6 +366,10 @@ footer .year {
     align-content: center;
   }
 
+.single-blog {
+  height: auto;
+}
+
   .projects {
     margin-bottom: 4rem;
   }
