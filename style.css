@@ -337,7 +337,6 @@ footer .year {
   .nav {
     /* background: yellow; */
     flex-direction: column;
-    margin-bottom: 1rem;
   }
 
   .intro {
