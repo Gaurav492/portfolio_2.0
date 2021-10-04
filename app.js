@@ -55,7 +55,7 @@ gql(GET_USER_ARTICLES, { page: 0 })
             title.innerText = blog.title;
             brief.innerText = blog.brief;
             img.src = `${blog.coverImage}`;
-            link.innerText = 'Read more...';
+            link.innerText = 'Read full blog';
             link.href = `https://gauravvala.hashnode.dev/${blog.slug}`;
 
             single_blog.appendChild(img);
