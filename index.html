@@ -1,119 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="https://img.icons8.com/bubbles/50/000000/man-in-blue-jacket.png" type="image/x-icon">  
     <link rel="stylesheet" href="./style.css">
     <title>Gaurav Vala</title>
 </head>
+
 <body>
-   <nav>
-       <h1>Gaurav.</h1>
-
-       <div class="menu">
-            <input type="checkbox" id="menu_checkbox">
-            <label for="menu_checkbox">
-            <div></div>
-            <div></div>
-            <div></div>
-        </label>
-       </div>
-
+    <header class="nav sec">
+        <a target="_blank" rel="noopener noreferrer" class="logo" href="#">Gaurav</a>
         <ul>
-            <li><a class="active" href="">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blogs">Blogs</a></li>
         </ul>
-   </nav>
+    </header>
+    <section class="intro sec">
+        <div class="left-intro">
+            <h1>Hii My I'm Gaurav</h1>
+            <p>I am a Computer Engneering Student, aspiring to a be Full Stack Developer. I've also been learning about
+                UI/UX Designs and Graphic Designing. In my free time i make content for my <a target="_blank"
+                    rel="noopener noreferrer" class="links" href="https://twitter.com/gaurav_vaala">Twitter</a> and
+                <a target="_blank" rel="noopener noreferrer" class="links" href="">Instagram</a> page
+                and write blog on <a target="_blank" rel="noopener noreferrer" class="links"
+                    href="https://hashnode.com/@gauravvala444">Hashnode</a> and <a target="_blank"
+                    rel="noopener noreferrer" class="links" href="https://dev.to/gauravvala12">Dev.to</a>
+            </p>
 
-   <section class="intro">
-        <div class="info">
-            <h2>
-                Hii, i am <span>Gaurav.</span>
-            </h2>
-            <p>I am an aspiring Web Developer and Graphics Designer</p>
-            <a href="https://drive.google.com/file/d/1ZNlCGQc3F1Rvkbc8AqFgNRXyU2C8DN_9/view?usp=sharing">Get Resume</a>
+            <button class="btn">Get Resume</button>
         </div>
-        <div class="info-img">
-            <img src="/imgs/4169290.svg" alt="">
-        </div>
-   </section>
 
-   <section id="skills" class="skills">
-       <div class="title">
-           <h2>Skills</h2>
-       </div>
-       <div class="grid">
-           <img src="./imgs/icons/icons8-html-5.svg" alt="">
-           <img src="./imgs/icons/icons8-css3.svg" alt="">
-           <img src="./imgs/icons/icons8-javascript-logo.svg" alt="">
-           <img src="./imgs/icons/icons8-github.svg" alt="">
-           <img src="./imgs/icons/icons8-adobe-photoshop.svg" alt="">
-           <img src="./imgs/icons/icons8-adobe-illustrator.svg" alt="">
-           <img src="./imgs/icons/icons8-figma.svg" alt="">
-           <img src="./imgs/icons/icons8-office-365.svg" alt="">
-       </div>
-   </section>
-   
-   <section id="projects" class="projects">
-    <div class="title">
+        <div class="right-intro">
+            <img src="./assets/imgs/DP.jpg">
+        </div>
+    </section>
+
+    <section id="skills" class="skills sec">
+        <h2>Skills</h2>
+
+        <div class="skills-area">
+            <span class="title">Technical</span>
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Git/Github</li>
+            </ul>
+        </div>
+
+        <div class="skills-area">
+            <span class="title">Design Tools</span>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Figma</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects sec">
         <h2>Projects</h2>
-    </div>
 
         <div class="project-grid">
-            <div class="project">
-                <img src="/imgs/866-536x354.jpg" alt="">
-                <div class="project-info">
-                    <h3>MatArc</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolore id saepe cum ut impedit.</p>
-                    <div class="pro-links">
-                        <a href="">Live Version</a>
-                        <a href="">See Code</a>
+            <div class="single-project">
+                <img src="./assets/imgs/matarc.png" alt="">
+                <div class="project-details">
+                    <h3>Material Archive</h3>
+                    <p>MatArc is a collection of resources for GTU diploma students of Computer Branch. It is a Static
+                        site made using HTML/CSS/JavaScript and made into a PWA.</p>
+                    <div class="link">
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://github.com/Gaurav492/material-archive">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://matarc.netlify.app/">Live</a>
                     </div>
                 </div>
             </div>
 
-            <div class="project">
-                <img src="/imgs/866-536x354.jpg" alt="">
-                <div class="project-info">
-                    <h3>MatArc</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolore id saepe cum ut impedit.</p>
-                    <div class="pro-links">
-                        <a href="">Live Version</a>
-                        <a href="">See Code</a>
+            <div class="single-project">
+                <img src="./assets/imgs/Untitled design.png" alt="">
+                <div class="project-details">
+                    <h3>Covid Data</h3>
+                    <p>Covid Data is a site which shows data from a API. It is a dynamic site which uses HTML/BULMA
+                        CSS/JavaScript. For Data Fetching it Uses JavaScript's Fetch API</p>
+                    <div class="link">
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://github.com/Gaurav492/covid-tracker">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://guj-covid-data.netlify.app/">Live</a>
                     </div>
                 </div>
             </div>
 
-            <div class="project">
-                <img src="/imgs/866-536x354.jpg" alt="">
-                <div class="project-info">
-                    <h3>MatArc</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolore id saepe cum ut impedit.</p>
-                    <div class="pro-links">
-                        <a href="">Live Version</a>
-                        <a href="">See Code</a>
+            <div class="single-project">
+                <img src="./assets/imgs/apeais.png" alt="">
+                <div class="project-details">
+                    <h3>Apeais</h3>
+                    <p>APais is Dymanic Site Which was made using Angular where each api is a saprate component and data
+                        was fetched usig Angular Services.
+                    </p>
+                    <div class="link">
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://github.com/Gaurav492/apeais">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://gaurav492.github.io/apeais/">Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-project">
+                <img src="./assets/imgs/portfolio.png" alt="">
+                <div class="project-details">
+                    <h3>Old Portolio</h3>
+                    <p>This is the previous version of this portfolio site which resembled my previous design asthetics.
+                    </p>
+                    <div class="link">
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://github.com/Gaurav492/portfolio_2.0">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" class="links"
+                            href="https://old-gauravvala.netlify.app/">Live</a>
                     </div>
                 </div>
             </div>
         </div>
-</section>
+    </section>
+    <section id="blogs" class="blogs sec">
+        <h2>Blogs</h2>
+        <div id="blog-grid">
 
-<section id="contact" class="contact">
-    <div class="title">
-        <h2>Connect with me</h2>
-    </div>
-    <div class="grid">
-        <a href=""><img src="/imgs/icons/icons8-instagram.svg" alt=""></a> 
-        <a href=""><img src="/imgs/icons/icons8-twitter.svg" alt=""></a> 
-        <a href=""><img src="/imgs/icons/icons8-facebook.svg" alt=""></a> 
-        <a href=""><img src="/imgs/icons/icons8-github.svg" alt=""></a> 
-    </div>
-</section>
+        </div>
+    </section>
 
-<script src="/app.js"></script>
+    <footer>
+        <div class="sec">
+            <ul>
+                <li>Socials</li>
+                <li><a href="https://www.instagram.com/gaurav.vala/">Instagram</a></li>
+                <li><a href="https://twitter.com/gaurav_vaala">Twitter</a></li>
+            </ul>
+
+            <ul>
+                <li>Contact</li>
+                <li><a href="mailto: gauravvala444@gmail.com">gauravvala444@gmail.com</a></li>
+            </ul>
+
+            <ul>
+                <li>Blog</li>
+                <li><a href="https://hashnode.com/@gauravvala444">Hashnode</a></li>
+                <li><a href="https://dev.to/gauravvala12">Dev.to</a></li>
+            </ul>
+
+        </div>
+        <div class="year">
+            <span>year</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
