@@ -1,5 +1,5 @@
-::-moz-selection { background: #FF7777; }
-::selection { background: #FF7777; }
+::-moz-selection { background: #FF7777; color: #F5C6A5;}
+::selection { background: #FF7777; color: #F5C6A5;}
 
 @import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap");
 
