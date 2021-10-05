@@ -72,6 +72,6 @@ gql(GET_USER_ARTICLES, { page: 0 })
 
 let year = new Date();
 
-yearSpan.innerHTML = `Copyright &copy;${year.getFullYear()}`;
+yearSpan.innerHTML = `Made with passion 🔥 &copy;${year.getFullYear()}`;
 
 
