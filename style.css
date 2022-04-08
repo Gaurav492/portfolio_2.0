@@ -6,6 +6,11 @@
   --box-shadow: 0.2rem 0.2rem 0rem #000000;
 }
 
+::selection{
+  background-color: #000;
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -369,6 +374,24 @@ footer .year {
   .single-project,
   .single-blog {
     align-self: center;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1760px) {
+  .skills {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .project-grid,
+  #blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    /* margin-bottom: 2rem; */
   }
 }
 
